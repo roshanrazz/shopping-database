@@ -6,7 +6,7 @@
 /* 
 Execution order is as:
 
- 1   ->   2   ->   3   ->   4      -->  5   ->   6     ->    7       ->  8
+ 1   ->   2   ->   3   ->   4      -->  5   ->   6     ->    7    ->  8
 FROM -> JOIN -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY -> LIMIT
 
 */
@@ -49,7 +49,7 @@ WHERE p.price > 5
 ORDER BY c.category_name ASC
 LIMIT 10;
 
--- DEMO SQL QUERY WHERE ALL EXECUTION ORDER IS IS_USED 
+-- DEMO SQL QUERY WHERE ALL EXECUTION ORDER IS IS USED 
 
 SELECT *
 FROM products AS p
