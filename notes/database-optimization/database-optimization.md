@@ -5,7 +5,7 @@
 
     > **Non-clustered index**: We can create non-clustered index according to our needs. It is like index page of books. It uses disk space and is slower compared to clustered index.
     
-    > *Note*: Over indexing can degrade performance of database.
+    > *Note*: Over indexing can degrade performance of database as it increases storage space, slows down write operations, adds maintenance overhead, complicates query optimization, can cause concurrency issues, and raises the risk of index fragmentation. It's important to create only necessary indexes to maintain optimal performance.
 
 
 2.  **Query Optimization**: Writing efficient queries by avoiding unnecessary joins, using appropriate WHERE clauses, and limiting the amount of data retrieved improves query optimization. Use joins instead of sub queries also improves performance of database.
